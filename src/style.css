@@ -1,0 +1,221 @@
+:root {
+  --dl-color-blue-500: #17c1e8ff;
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-800: #D9D9D9;
+  --dl-color-gray-900: #f8f9faff;
+  --dl-color-pink-100: #eea9cdff;
+  --dl-color-pink-200: #e293d3ff;
+  --dl-color-pink-300: #e370abff;
+  --dl-color-pink-500: #dd559bff;
+  --dl-color-pink-700: #cb0c9fff;
+  --dl-size-size-unit: 1rem;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-space-space-unit: 1rem;
+  --dl-color-primary-100: #c172d5ff;
+  --dl-color-primary-500: #ac43c7ff;
+  --dl-color-primary-700: #b313dbff;
+  --dl-size-size-xxlarge: 288px;
+  --dl-space-space-unit1: 1rem;
+  --dl-color-primary-logo: #a383fdff;
+  --dl-size-size-halfunit: 0.5rem;
+  --dl-color-pink-softpink: #ff97c0ff;
+  --dl-color-secondary-100: #d2d6daff;
+  --dl-color-secondary-200: #8392abff;
+  --dl-color-secondary-300: #808fbfff;
+  --dl-color-secondary-400: #67748eff;
+  --dl-color-secondary-500: #344767ff;
+  --dl-color-secondary-600: #252f40ff;
+  --dl-color-secondary-700: #20273fff;
+  --dl-radius-radius-round: 50%;
+  --dl-color-blue-lightblue: #afd7efff;
+  --dl-size-size-doubleunit: 2rem;
+  --dl-size-size-tripleunit: 3rem;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 6rem;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius1: 1rem;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius5: 0.5rem;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-halfunit1: 8px;
+  --dl-space-space-halfunit2: 0.5rem;
+  --dl-space-space-halfunit3: 0.5rem;
+  --dl-space-space-halfunit4: 0.5rem;
+  --dl-space-space-halfunit5: 0.5rem;
+  --dl-space-space-halfunit6: 0.5rem;
+  --dl-space-space-halfunit7: 0.5rem;
+  --dl-space-space-halfunit9: 0.5rem;
+  --dl-color-template-blue-bg: #5228f5ff;
+  --dl-radius-radius-radius40: 40px;
+  --dl-radius-radius-radius75: 0.75rem;
+  --dl-size-size-unitandahalf: 1.5rem;
+  --dl-space-space-doubleunit: 2rem;
+  --dl-space-space-fourunits1: 64px;
+  --dl-space-space-fourunits2: 64px;
+  --dl-space-space-fourunits3: 64px;
+  --dl-space-space-fourunits4: 64px;
+  --dl-space-space-fourunits6: 64px;
+  --dl-space-space-halfunit11: 0.5rem;
+  --dl-space-space-halfunit12: 0.5rem;
+  --dl-space-space-halfunit13: 0.5rem;
+  --dl-space-space-halfunit14: 0.5rem;
+  --dl-space-space-halfunit16: 0.5rem;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-tripleunit: 3rem;
+  --dl-space-space-twelveunits: 12rem;
+  --dl-color-primary-softpurple: #de9ae0ff;
+  --dl-size-size-triplequarterunit: 0.75rem;
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-space-space-unitandahalfunit: 1.5rem;
+  --dl-space-space-triplequarterunit: 0.75rem;
+}
+
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+
+.button {
+  color: var(--dl-color-secondary-200);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: Open Sans;
+  border-color: var(--dl-color-secondary-300);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.list-item {
+  display: list-item;
+}
+
+.textarea {
+  color: var(--dl-color-secondary-400);
+  cursor: auto;
+  padding: 0.5rem;
+  font-family: Open Sans;
+  border-color: var(--dl-color-secondary-400);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.input {
+  color: var(--dl-color-secondary-400);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  font-family: Open Sans;
+  border-color: #a240c9;
+  border-width: 0px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+
+.Small {
+  font-size: 0.875rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Large {
+  font-size: 0.875rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  letter-spacing: -0.025rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Medium {
+  font-size: 1.125rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Body {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.HeadingOne {
+  font-size: 2.25rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.HeadingTwo {
+  font-size: 1.875rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.375;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Lead {
+  font-size: 1.25rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.625;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.HeadingThree {
+  font-size: 1.25rem;
+  font-family: Open Sans;
+  font-weight: 600;
+  line-height: 1.375;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Label {
+  font-size: 0.75rem;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.ButtonSmall {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.025rem;
+  text-transform: uppercase;
+}
